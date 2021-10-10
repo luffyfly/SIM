@@ -63,7 +63,7 @@ Some pretrained models are listed below with their performance.
 
 ### Run
 
-Download the model and put it under `checkpoints/DIM` or `checkpoints/Adobe` in the root directory. Download the classifier [here](https://drive.google.com/file/d/12JCGqDylBXJpgDhj4hg_JZYdbHlX8TKe/view?usp=sharing) and put it under `checkpoints`. Run the inference and evaluation by
+Download the model and put it under `checkpoints/SIM` or `checkpoints/Adobe` in the root directory. Download the classifier [here](https://drive.google.com/file/d/12JCGqDylBXJpgDhj4hg_JZYdbHlX8TKe/view?usp=sharing) and put it under `checkpoints`. Run the inference and evaluation by
 ```
 python scripts/main.py -c config/CONFIG.yaml 
 ``` 
